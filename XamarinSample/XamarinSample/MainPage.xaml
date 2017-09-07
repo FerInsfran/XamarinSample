@@ -4,8 +4,59 @@
              xmlns:local="clr-namespace:XamarinSample"
              x:Class="XamarinSample.MainPage">
 
-	<Label Text="Jaha Inc.!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand">
+
+        <Label Text="Registration Form"
+               FontSize="20"
+               TextColor="Red"
+               FontAttributes="Bold"/>
+
+        <Label Text="Welcome to the registration form! Please fill out"
+               FontAttributes="Bold"/>
+        
+        <Label Text="the following information to register for the event:"
+               FontAttributes="Bold"/>
+
+        <Label Text="Personal Information"
+               FontSize="15"
+               TextColor="Blue"
+               FontAttributes="Bold"/>
+    
+        
+        <Entry Placeholder="First Name:"/>
+        <Entry Placeholder="Middle Name:"/>
+        <Entry Placeholder="Last Name:"/>
+
+        <Label Text="Address"
+               FontSize="15"
+               TextColor="Blue"
+               FontAttributes="Bold"/>
+        
+        <Entry Placeholder="Address:"/>
+        <Entry Placeholder="City:"/>
+        <Entry Placeholder="State:"/>
+        <Entry Placeholder="Zip Code:"/>
+
+        <Label Text="Notes:"
+               FontSize="15"
+               TextColor="Black"
+               FontAttributes="Bold"/>
+
+
+        <Editor HeightRequest="100"/>
+
+        <Button Text="Submit Information"/>
+
+    </StackLayout>
+
+
+
+
+
+
+
+
 
 </ContentPage>
