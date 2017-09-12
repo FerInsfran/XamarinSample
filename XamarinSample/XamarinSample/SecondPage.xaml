@@ -4,7 +4,14 @@
              x:Class="XamarinSample.SecondPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Label Text="Success!" 
+                   FontSize="80"
+                   FontAttributes="Bold"
+                   TextColor="Green"/>
+
+            <Button Text="Go Back to the Previous Page"
+                
+                Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

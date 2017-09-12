@@ -48,7 +48,7 @@
         <Editor HeightRequest="100"/>
 
             <Button Text="Submit Information"/>
-            <Button Text="Go to another page"
+            <Button Text="Success Button"
                 
                 Clicked="Button_Clicked"/>
 
