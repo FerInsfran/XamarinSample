@@ -52,9 +52,15 @@
                 
                 Clicked="Button_Clicked"/>
 
+            <Button Text="Go to another page"
+                
+               Clicked="Button_Clicked_1"/>
 
 
-    </StackLayout>
+
+
+
+        </StackLayout>
     </ScrollView>
 
 

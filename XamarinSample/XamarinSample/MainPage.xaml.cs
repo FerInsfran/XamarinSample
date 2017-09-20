@@ -18,5 +18,10 @@ namespace XamarinSample
         {
             Navigation.PushAsync(new SecondPage());
         }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new InteractionPage());
+        }
     }
 }
