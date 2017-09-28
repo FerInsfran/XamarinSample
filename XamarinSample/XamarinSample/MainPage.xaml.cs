@@ -23,5 +23,10 @@ namespace XamarinSample
         {
             Navigation.PushAsync(new InteractionPage());
         }
+
+        private void toDoButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ToDoPage());
+        }
     }
 }

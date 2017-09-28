@@ -56,6 +56,10 @@
                 
                Clicked="Button_Clicked_1"/>
 
+            <Button Text="Go To ToDoList"
+                x:Name="toDoButton"
+                Clicked="toDoButton_Clicked"/>
+
 
 
 
