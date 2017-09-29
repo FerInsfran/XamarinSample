@@ -24,9 +24,18 @@ namespace XamarinSample
 
         private void addItemButton_Clicked(object sender, EventArgs e)
         {
-            this.ToDoItems.Add(newToDoItemEntry.Text);
+            if (String.IsNullOrEmpty(newToDoItemEntry.Text))
+            {
+                DisplayAlert("Error", "Please enter a value", "Ok");
+            }
+            else
+            {
+                this.ToDoItems.Add(newToDoItemEntry.Text);
 
-            toDoList.ItemsSource = this.ToDoItems;
+                toDoList.ItemsSource = this.ToDoItems;
+
+                newToDoItemEntry.Text = "";
+            }
 
 
         }
